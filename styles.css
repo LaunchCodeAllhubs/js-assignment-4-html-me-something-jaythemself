@@ -1,1 +1,9 @@
 /* Write your CSS here! */
+img {
+    display: inline-block;
+    vertical-align: middle; /* or top or bottom */
+}
+.text {
+    display: inline-block;
+    vertical-align: middle; /* or top or bottom */
+}
