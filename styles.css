@@ -1,9 +1,24 @@
 /* Write your CSS here! */
-img {
+body {
+    font-size: 12pt;
+    font-family: Verdana, Tahoma, Impact, 'Arial Narrow Bold', sans-serif;
+    color:#221C35;
+    background-color:rgb(255, 252, 234);
+    height: 99vh;
+    width: 99vw;
+    box-sizing: border-box;
+    img {
+       display: inline-block;
+       vertical-align: middle; /* or top or bottom */
+    }
+    .text {
     display: inline-block;
     vertical-align: middle; /* or top or bottom */
+    }
 }
-.text {
-    display: inline-block;
-    vertical-align: middle; /* or top or bottom */
+
+header {
+    font-family: Verdana, Tahoma, Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 97vw;
 }
