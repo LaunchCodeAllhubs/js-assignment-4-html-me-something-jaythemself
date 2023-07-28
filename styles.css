@@ -20,5 +20,6 @@ body {
 header {
     font-family: Verdana, Tahoma, Impact, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    width: 97vw;
+    width: 98vw;
+    padding: 10px 20px;
 }
