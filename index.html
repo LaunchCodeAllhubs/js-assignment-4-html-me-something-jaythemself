@@ -9,86 +9,111 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="styles.css" type="text/css" rel="stylesheet" />
    </head>
+
    <body>
     <header>
-      <p>Have you heard of the critically acclaimed MMORPG Final Fantasy XIV? With an expanded free trial in which you can play through the entirety of A Realm Reborn and the award-winning Heavensward expansion up to level 60 for free with no restrictions on playtime?</p>
-      <p>Well if not you're <b><i>about to.</i></b></p>
+      <p>Have you heard of the critically acclaimed MMORPG Final Fantasy XIV? With an expanded free trial in which you can play through the entirety of A Realm Reborn and the award&nbsp;winning Heavensward expansion up to level 60 for free with no restrictions on playtime?</p>
+      <p>Well if not you&apos;re <b><i>about to.</i></b></p> <!--section into its own div so i can mess with it-->
       <p>Basic intro to the game etc. Maybe image of toasty shilling and a credit. talk about character creation and use image?</p>
     </header>
     <main>
       <!--apparently bad form to set image size with html so? do that in css instead. also bolds, italics, strikethrough etc etc-->
       <!--link to arr trailer: https://youtu.be/dc5HY3KEqug-->
-      <article>
-       <h3>Combat Roles</h3>
-       <img src="images/Tank_Icon.png"
-       alt="Final Fantasy 14 tank role icon. It is a shield on a blue field."
-       width="40"
-       height="40"
-       title="Tank Icon"
-       />
-       <h4>Tank</h4>
-       <p>Tanking in this game is what we lovingly refer to as "masochism". You're a damage sponge, getting knocked into next Tuesday so your fragile, squishy peers don't rage quit and never speak to you again. Fortunately this means you're above reproach, and if any DPS dare complain you pull too many enemies you can just turn off enmity and let the mobs get them.</p>
-       
-       <h4>Heal</h4>
-       <img src="images/Healer_Icon.png"
-       alt="Final Fantasy 14 healer role icon. It is a cross on a green field."
-       width="40"
-       height="40"
-       title="Healer Icon"
-       />
-       <p>So you have a god complex and the idea of holding the lives of your peers in your hands is appealing? Do you want to be the healer with a gun meme? This is the role for you. Much like the tank, healers can do no wrong. Tanks will occasionally press you into working harder by leaving enmity off or refusing to mitigate the damage they're taking, in which case you're well within your rights to let them sweat it out a bit without heals. If they die, they die. What does it matter that the rest of the party is next? They'll learn their lesson.</p>
-       
-       <h4>DPS</h4>
-       <img src="images/DPS_Icon.png"
-       alt="Final Fantasy 14 damage dealer role icon. It is a short sword on a red field."
-       width="40"
-       height="40"
-       title="DPS Icon"
-       />
-       <p>Damage dealers! Magical or physical, ranged or up close and personal. You'll be the one putting the big numbers up on the baddies. Sadly, everyone hates you. But hey, it's okay, you have three times as many job options as the other roles. Sometimes you even get a fancy hat.</p>
-      </article>
+      <article id="combat-roles-section">
+        <div id="combat-roles-title">
+        <h3>Combat Roles</h3>
+        </div>
+        <!--tank-->
+          <div id="tank-icon">
+          <img src="images/Tank_Icon.png"
+          alt="Final Fantasy 14 tank role icon. It is a shield on a blue field."
+          width="40"
+          height="40"
+          title="Tank Icon"
+          />
+          </div>
+          <div id="tank-title">
+          <h4>Tank</h4>
+          </div>
+            <div id="tank-description">
+            <p>Tanking in this game is what we lovingly refer to as "masochism". You're a damage sponge, getting knocked into next Tuesday so your fragile, squishy peers don't rage quit and never speak to you again. Fortunately this means you're above reproach, and if any DPS dare complain you pull too many enemies you can just turn off enmity and let the mobs get them.</p>
+            </div>
+        <!--heal-->
+          <div id="heal-icon">
+          <img src="images/Healer_Icon.png"
+          alt="Final Fantasy 14 healer role icon. It is a cross on a green field."
+          width="40"
+          height="40"
+          title="Healer Icon"
+          />
+          </div>
+          <div id="heal-title">
+          <h4>Heal</h4>
+          </div>
+            <div id="heal-description">
+            <p>So you have a god complex and the idea of holding the lives of your peers in your hands is appealing? Do you want to be the healer with a gun meme? This is the role for you. Much like the tank, healers can do no wrong. Tanks will occasionally press you into working harder by leaving enmity off or refusing to mitigate the damage they're taking, in which case you're well within your rights to let them sweat it out a bit without heals. If they die, they die. What does it matter that the rest of the party is next? They'll learn their lesson.</p>
+            </div>
+        <!--dps-->
+          <div id="dps-icon">
+          <img src="images/DPS_Icon.png"
+          alt="Final Fantasy 14 damage dealer role icon. It is a short sword on a red field."
+          width="40"
+          height="40"
+          title="DPS Icon"
+          />
+          </div>
+          <div id="dps-title">
+          <h4>DPS</h4>
+          </div>
+            <div id="dps-description">
+            <p>Damage dealers! Magical or physical, ranged or up close and personal. You'll be the one putting the big numbers up on the baddies. Sadly, everyone hates you. But hey, it's okay, you have three times as many job options as the other roles. Sometimes you even get a fancy hat.</p>
+            </div>
+       </article>
 
-      <article>
-       <h3>Creative Roles</h3>
+      <article id="creative-roles-section">
+        <div id="creative-roles-title">
+        <h3>Creative Roles</h3>
+        </div>
 
-       <h4>Craft</h4>
-       <img src="images/Crafter_Icon.png"
-       alt="Final Fantasy 14 crafter role icon. It is an anvil, a saw, and a star on a purple field."
-       width="40"
-       height="40"
-       title="Crafter Icon"
-       />
-       <p>Not a fan of all that violence? Bored out of your mind grinding levels fighting the same three enemies for six hours, but somehow you can find your zen sitting in the same place making four hundred metal ingots in a row? Boy howdy do I have good news for you.</p>
-       
-       <h4>Gather</h4>
-       <img src="images/Gatherer_Icon.png"
-       alt="Final Fantasy 14 gatherer role icon. It is a fish and a stalk of wheat on an orange field."
-       width="40"
-       height="40"
-       title="Gatherer Icon"
-       />
-       <p>Have you ever wanted to perform back-breaking manual labor for fun? Labor you can't even benefit from yourself unless you spend just as long crafting items from the materials you hoard? Well, at least you can sell this mountain of rocks to a jeweler and get rich...eventually?</p>
-      </article>
+          <h4>Craft</h4>
+          <img src="images/Crafter_Icon.png"
+         alt="Final Fantasy 14 crafter role icon. It is an anvil, a saw, and a star on a purple field."
+          width="40"
+          height="40"
+          title="Crafter Icon"
+          />
+          <p>Not a fan of all that violence? Bored out of your mind grinding levels fighting the same three enemies for six hours, but somehow you can find your zen sitting in the same place making four hundred metal ingots in a row? Boy howdy do I have good news for you.</p>
+        
+          <h4>Gather</h4>
+          <img src="images/Gatherer_Icon.png"
+          alt="Final Fantasy 14 gatherer role icon. It is a fish and a stalk of wheat on an orange field."
+          width="40"
+          height="40"
+          title="Gatherer Icon"
+          />
+          <p>Have you ever wanted to perform back&nbsp;breaking manual labor for fun? Labor you can&apos;t even benefit from yourself unless you spend just as long crafting items from the materials you hoard? Well, at least you can sell this mountain of rocks to a jeweler and get rich...eventually?</p>
+       </article>
 
-      <article>
+      <section id="collecting-section">
        <h3>Collecting</h3>
        <p>The real appeal of this game, and Square knows it. Have a little guy follow you around everywhere you go! Call the coolest monsters to give you a lift to the next city over! Be it a little sparrow that flits to your shoulder, a literal tamed god, a stuffed animal come to life, a horrifying monstrosity lurking over your shoulder, with minions and mounts you have HUNDREDS of options available. Oh, you wanted <i>that</i> one? Yeah, sorry, it's only available for purchase from the online store for USD $15.99.</p>
-      </article>
+      </section>
 
-      <article>
+      <section id="decorating-section">
        <h3>Decorating</h3>
        <p>You can craft furniture and decorations for your very own house! If you win the lottery. And yes, the odds are near as slim. Maybe just go play the Sims.</p>
-      </article>
+      </section>
 
-      <article>
+      <section id="multiplayer-section" class= "funParagraph">
        <h3>Multiplayer</h3>
-       <p>You mean you expected me to talk about the MMO part of the critically aclaimed MMORPG? Gross. If you're SOCIAL I <i>guess</i> you can fight in giant boss battles with friends, or form a company with them, or roleplay with strangers(strikethrough, future friends). But really, what kind of a freak are you? Who utilizes the multiplayer elements in a multiplayer game? //Maybe link joke videos like the crap guides. can use a sourcing element?</p>
-      </article>
+       <p id= "testP">You mean you expected me to talk about the MMO part of the critically aclaimed MMORPG? Gross. If you're SOCIAL I <i>guess</i> you can fight in giant boss battles with friends, or form a company with them, or roleplay with <s>strangers</s> future friends. But really, what kind of a freak are you? Who utilizes the multiplayer elements in a multiplayer game? //Maybe link joke videos like the crap guides. can use a sourcing element?</p>
+      </section>
     </main>
+
     <footer>
-      <p><i>Final Fantasy is owned by Square Enix. All images featured are used in game. This entire page should be disregarded as the author has only been playing for 6 weeks and doesn't actually know what they're talking about.</i></p>
+      <p><i>Final Fantasy is owned by Square Enix. All images featured are used in game. This entire page should be disregarded as the author has only been playing for 8 weeks and doesn&apos;t actually know what they&apos;re talking about.</i></p>
       <p>FINAL FANTASY XIV
-      
+
          &copy;2010-2023 SQUARE ENIX CO., LTD. All Rights Reserved.
          LOGO & IMAGE ILLUSTRATION: &copy;2010, 2015, 2017 YOSHITAKA AMANO
       </p>
