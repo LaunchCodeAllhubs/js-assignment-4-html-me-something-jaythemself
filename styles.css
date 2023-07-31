@@ -62,7 +62,12 @@ p {
     color: green;
 }
 
+.characterCreation {
+    margin-top: 20px;
+    width: 99dvw;
+}
+
 footer {
-    margin-top: 100px;
+    margin-top: 40px;
     font-size: smaller;
 }
