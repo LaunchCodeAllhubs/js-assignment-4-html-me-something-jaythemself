@@ -17,7 +17,7 @@ body {
     height: 95vh;
     width: 95vw;
     box-sizing: border-box;
-
+    margin: 8px;
     text {
     display: inline-block;
     vertical-align: middle;
@@ -30,6 +30,10 @@ header {
     width: 95vw;
     padding: 10px 20px;
 }
+
+    #mainHeading {
+    color: red;
+    }
 
 .roleIcon {
     display: block;
@@ -51,4 +55,14 @@ h4 {
 p {
     margin-top: 15px;
     margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+.funParagraph {
+    color: green;
+}
+
+footer {
+    margin-top: 100px;
+    font-size: smaller;
 }
