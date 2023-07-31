@@ -1,1 +1,73 @@
-/* Write your CSS here! */
+header {
+    width: 95vw;
+}
+
+.logoImage {
+    width: 95vw;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+body {
+    display: block;
+    font-size: 12pt;
+    font-family: Verdana, Tahoma, Impact, 'Arial Narrow Bold', sans-serif;
+    color:#221C35;
+    background-color:rgb(255, 252, 234);
+    height: 95vh;
+    width: 95vw;
+    box-sizing: border-box;
+    margin: 8px;
+    text {
+    display: inline-block;
+    vertical-align: middle;
+    }
+}
+
+header {
+    font-family: Verdana, Tahoma, Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 95vw;
+    padding: 10px 20px;
+}
+
+    #mainHeading {
+    color: red;
+    }
+
+.roleIcon {
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+h3 {
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+h4 {
+    margin-top: 25px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+.funParagraph {
+    color:green;
+}
+
+.characterCreation {
+    margin-top: 20px;
+    width: 99dvw;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: smaller;
+}
